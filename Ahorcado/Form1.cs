@@ -36,7 +36,7 @@ namespace Ahorcado
                 label1.Text = _palabraGuiones;
             }
 
-
+            this.BackColor = Color.FromArgb(34, 36, 49);
 
         }
 
@@ -46,7 +46,7 @@ namespace Ahorcado
         }
         private static String eligePalabra()
         {
-            String[] listaPalabras = { "HolA", "VLADikaKA", "BaBy YOdA" };
+            String[] listaPalabras = { "Hola", "Baby Yoda", "Willyrex", "Coronavirus"};
             Random aleatorio = new Random();
             int pos = aleatorio.Next(listaPalabras.Length);
             return listaPalabras[pos].ToUpper();
