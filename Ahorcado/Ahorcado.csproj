@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acertasteTodo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ahorcado_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ahorcado_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ahorcado_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ahorcado_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ahorcado_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ahorcado_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ahorcado_fin.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
