@@ -162,7 +162,7 @@ namespace Ahorcado
             button25.Enabled = true;
             button26.Enabled = true;
             button27.Enabled = true;
-
+            button28.Enabled = false;
             numFallos = 0;
         }
     }
