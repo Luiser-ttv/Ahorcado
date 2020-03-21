@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -57,21 +56,10 @@
             this.button25 = new System.Windows.Forms.Button();
             this.button26 = new System.Windows.Forms.Button();
             this.button27 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button28 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.InitialImage = global::Ahorcado.Properties.Resources.ahorcado_0;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 94);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(736, 265);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.Form1_Load);
             // 
             // label1
             // 
@@ -461,11 +449,37 @@
             this.button27.UseVisualStyleBackColor = false;
             this.button27.Click += new System.EventHandler(this.letraPulsada);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.InitialImage = global::Ahorcado.Properties.Resources.ahorcado_0;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 94);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(736, 265);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.Form1_Load);
+            // 
+            // button28
+            // 
+            this.button28.BackColor = System.Drawing.SystemColors.Desktop;
+            this.button28.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button28.Location = new System.Drawing.Point(661, 601);
+            this.button28.Name = "button28";
+            this.button28.Size = new System.Drawing.Size(87, 38);
+            this.button28.TabIndex = 29;
+            this.button28.Text = "Reset";
+            this.button28.UseVisualStyleBackColor = false;
+            this.button28.Click += new System.EventHandler(this.button28_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(757, 659);
+            this.Controls.Add(this.button28);
             this.Controls.Add(this.button27);
             this.Controls.Add(this.button26);
             this.Controls.Add(this.button25);
@@ -533,6 +547,7 @@
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.Button button26;
         private System.Windows.Forms.Button button27;
+        private System.Windows.Forms.Button button28;
     }
 }
 
